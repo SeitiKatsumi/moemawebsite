@@ -1,4 +1,4 @@
-﻿const services = [
+const services = [
   {
     id: "sinalizacao-digital",
     title: "Sinalização Digital e Digital Signage",
@@ -16,7 +16,7 @@
     benefits: [
       "Gestão remota de conteúdo",
       "Atualização rápida de campanhas",
-      "Comunicação mais din?mica",
+      "Comunicação mais dinâmica",
       "Ambientes mais modernos",
       "Operação centralizada",
       "Escalabilidade para múltiplas unidades",
@@ -42,7 +42,7 @@
       "Uso interno ou externo",
       "Alta visibilidade",
       "Acabamento premium",
-      "Atualização din?mica de conteúdo",
+      "Atualização dinâmica de conteúdo",
     ],
   },
   {
@@ -69,13 +69,13 @@
   },
   {
     id: "videoconferencia-hibrida",
-    title: "Salas de Videoconferência Híbridas",
+    title: "Salas de Videoconferência",
     solution:
-      "C?meras inteligentes, microfones, soundbars, painéis de controle, sistemas BYOD, cabos, interfaces, hubs, displays e equipamentos para Teams, Zoom, Google Meet e Webex.",
+      "Câmeras inteligentes, microfones, soundbars, painéis de controle, sistemas BYOD, cabos, interfaces, hubs, displays e equipamentos para Teams, Zoom, Google Meet e Webex.",
     services: [
-      "Projeto de sala de reunião híbrida",
+      "Projeto de sala de videoconferência",
       "Montagem da sala de videoconferência",
-      "Instalação de c?meras e microfones",
+      "Instalação de câmeras e microfones",
       "Configuração de áudio e vídeo",
       "Integração com plataformas de reunião",
       "Parametrização de BYOD",
@@ -95,7 +95,7 @@
     id: "microsoft-teams-rooms",
     title: "Microsoft Teams Rooms",
     solution:
-      "Kits certificados para Microsoft Teams Rooms, painéis de controle, c?meras, microfones, displays, mini PCs, soundbars e licenças compatíveis.",
+      "Kits certificados para Microsoft Teams Rooms, painéis de controle, câmeras, microfones, displays, mini PCs, soundbars e licenças compatíveis.",
     services: [
       "Implantação de Microsoft Teams Rooms",
       "Instalação de sala Teams",
@@ -111,14 +111,14 @@
       "Integração com calendário",
       "Experiência padronizada",
       "Operação simples",
-      "Mais profissionalismo nas reuniões híbridas",
+      "Mais profissionalismo nas reuniões por vídeo",
     ],
   },
   {
     id: "zoom-meet-webex",
     title: "Zoom Rooms, Google Meet e Cisco Webex",
     solution:
-      "Hardwares para Zoom Rooms, Google Meet Hardware, Cisco Webex Room Kit, c?meras, microfones, displays e sistemas multiplataforma.",
+      "Hardwares para Zoom Rooms, Google Meet Hardware, Cisco Webex Room Kit, câmeras, microfones, displays e sistemas multiplataforma.",
     services: [
       "Implantação de Zoom Rooms",
       "Instalação de Google Meet Hardware",
@@ -133,20 +133,20 @@
       "Integração com calendários",
       "Salas preparadas para clientes externos",
       "Operação multiplataforma",
-      "Ambientes híbridos mais eficientes",
+      "Ambientes de colaboração mais eficientes",
     ],
   },
   {
     id: "equipamentos-videoconferencia",
     title: "Equipamentos para Videoconferência: Lenovo, Logitech, Yealink, Poly e Jabra",
     solution:
-      "Lenovo ThinkSmart, Logitech Rally, Logitech MeetUp, Yealink MVC, Yealink MeetingBoard, Poly Studio, Jabra PanaCast, c?meras PTZ, video bars, speakerphones e headsets profissionais.",
+      "Lenovo ThinkSmart, Logitech Rally, Logitech MeetUp, Yealink MVC, Yealink MeetingBoard, Poly Studio, Jabra PanaCast, câmeras PTZ, video bars, speakerphones e headsets profissionais.",
     services: [
       "Fornecimento dos equipamentos",
       "Instalação dos dispositivos",
       "Configuração dos sistemas",
       "Integração com Teams, Zoom, Meet e Webex",
-      "Ajuste de c?mera, microfone e áudio",
+      "Ajuste de câmera, microfone e áudio",
       "Padronização de salas",
       "Suporte técnico",
     ],
@@ -302,7 +302,7 @@
     id: "automacao-residencial",
     title: "Automação Residencial",
     solution:
-      "Automação de iluminação, cortinas, climatização, home theater, áudio multiroom, fechaduras, c?meras, sensores, painéis e controle por voz.",
+      "Automação de iluminação, cortinas, climatização, home theater, áudio multiroom, fechaduras, câmeras, sensores, painéis e controle por voz.",
     services: [
       "Projeto de casa inteligente",
       "Instalação de automação residencial",
@@ -325,14 +325,14 @@
     id: "infraestrutura-redes-cftv",
     title: "Infraestrutura, Redes Mesh e CFTV",
     solution:
-      "Roteadores, access points, redes mesh, cabeamento estruturado, switches, c?meras IP, DVR, NVR, sensores e sistemas de monitoramento.",
+      "Roteadores, access points, redes mesh, cabeamento estruturado, switches, câmeras IP, DVR, NVR, sensores e sistemas de monitoramento.",
     services: [
       "Projeto de infraestrutura de rede",
       "Instalação de rede mesh",
       "Instalação de Wi-Fi corporativo",
       "Cabeamento estruturado",
       "Instalação de CFTV",
-      "Configuração de c?meras IP",
+      "Configuração de câmeras IP",
       "Parametrização de NVR e DVR",
       "Integração com monitoramento remoto",
     ],

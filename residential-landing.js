@@ -2,7 +2,7 @@ const corporateMenu = [
   ["sinalizacao-digital", "Sinalização Digital"],
   ["paineis-led", "Painéis de LED"],
   ["telas-interativas", "Telas Interativas"],
-  ["videoconferencia-hibrida", "Videoconferência Híbrida"],
+  ["videoconferencia-hibrida", "Videoconferência"],
   ["microsoft-teams-rooms", "Microsoft Teams Rooms"],
   ["zoom-meet-webex", "Zoom, Meet e Webex"],
   ["equipamentos-videoconferencia", "Equipamentos de Videoconferência"],
@@ -21,7 +21,7 @@ const residentialSolutions = [
     title: "Automação Residencial",
     lead: "Casa inteligente com iluminação, cortinas, climatização, áudio, vídeo, segurança e controle por app ou voz.",
     equipment:
-      "Painéis touch, sensores, controladores, automação de iluminação, cortinas, climatização, home theater, áudio multiroom, fechaduras, c?meras e controle por voz.",
+      "Painéis touch, sensores, controladores, automação de iluminação, cortinas, climatização, home theater, áudio multiroom, fechaduras, câmeras e controle por voz.",
     services: [
       "Projeto de casa inteligente",
       "Instalação de automação residencial",
@@ -69,14 +69,14 @@ const residentialSolutions = [
   },
   {
     id: "seguranca-cftv",
-    title: "Segurança, C?meras e CFTV",
-    lead: "Monitoramento residencial com c?meras, sensores, fechaduras e acesso remoto integrado à rotina da casa.",
+    title: "Segurança, Câmeras e CFTV",
+    lead: "Monitoramento residencial com câmeras, sensores, fechaduras e acesso remoto integrado à rotina da casa.",
     equipment:
-      "C?meras IP, DVR, NVR, sensores, fechaduras inteligentes, vídeo porteiro, controles de acesso, alarmes e armazenamento de imagens.",
+      "Câmeras IP, DVR, NVR, sensores, fechaduras inteligentes, vídeo porteiro, controles de acesso, alarmes e armazenamento de imagens.",
     services: [
       "Projeto de segurança residencial",
       "Instalação de CFTV",
-      "Configuração de c?meras IP",
+      "Configuração de câmeras IP",
       "Parametrização de NVR e DVR",
       "Integração com monitoramento remoto",
       "Configuração de acesso por app",

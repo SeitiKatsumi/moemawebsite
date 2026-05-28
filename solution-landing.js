@@ -1,11 +1,11 @@
-﻿const corporateSolutions = [
+const corporateSolutions = [
   {
     id: "sinalizacao-digital",
     title: "Sinalização Digital e Digital Signage",
     lead: "Comunicação visual digital para empresas que precisam atualizar campanhas, avisos e conteúdos com velocidade, controle e impacto.",
     equipment: "Telas profissionais, players, softwares de gestão de conteúdo, displays corporativos e sistemas de comunicação visual digital.",
     services: ["Projeto de sinalização digital", "Instalação de telas corporativas", "Implantação de digital signage", "Configuração de software de gestão", "Parametrização de conteúdos e campanhas", "Integração com comunicação interna", "Treinamento operacional"],
-    benefits: ["Gestão remota de conteúdo", "Atualização rápida de campanhas", "Comunicação mais din?mica", "Operação centralizada"],
+    benefits: ["Gestão remota de conteúdo", "Atualização rápida de campanhas", "Comunicação mais dinâmica", "Operação centralizada"],
   },
   {
     id: "paineis-led",
@@ -25,17 +25,17 @@
   },
   {
     id: "videoconferencia-hibrida",
-    title: "Salas de Videoconferência Híbridas",
-    lead: "Salas preparadas para reuniões híbridas com áudio claro, imagem profissional e operação simples.",
-    equipment: "C?meras inteligentes, microfones, soundbars, painéis de controle, sistemas BYOD, cabos, interfaces, hubs e displays.",
-    services: ["Projeto de sala de reunião híbrida", "Montagem da sala de videoconferência", "Instalação de c?meras e microfones", "Configuração de áudio e vídeo", "Integração com Teams, Zoom, Meet e Webex", "Testes de uso real", "Treinamento da equipe"],
+    title: "Salas de Videoconferência",
+    lead: "Salas preparadas para reuniões por vídeo com áudio claro, imagem profissional e operação simples.",
+    equipment: "Câmeras inteligentes, microfones, soundbars, painéis de controle, sistemas BYOD, cabos, interfaces, hubs e displays.",
+    services: ["Projeto de sala de videoconferência", "Montagem da sala de videoconferência", "Instalação de câmeras e microfones", "Configuração de áudio e vídeo", "Integração com Teams, Zoom, Meet e Webex", "Testes de uso real", "Treinamento da equipe"],
     benefits: ["Reuniões mais fluidas", "Menos ruído", "Imagem profissional", "Compatibilidade multiplataforma"],
   },
   {
     id: "microsoft-teams-rooms",
     title: "Microsoft Teams Rooms",
     lead: "Ambientes nativos Microsoft Teams para reuniões padronizadas, integradas ao calendário e fáceis de operar.",
-    equipment: "Kits certificados para Microsoft Teams Rooms, painéis de controle, c?meras, microfones, displays, mini PCs e soundbars.",
+    equipment: "Kits certificados para Microsoft Teams Rooms, painéis de controle, câmeras, microfones, displays, mini PCs e soundbars.",
     services: ["Implantação de Microsoft Teams Rooms", "Instalação de sala Teams", "Configuração de MTR", "Parametrização de Teams Rooms Pro ou Basic", "Integração com Outlook", "Configuração de equipamentos certificados", "Treinamento de operação"],
     benefits: ["Ambiente nativo Microsoft", "Entrada rápida nas reuniões", "Integração com calendário", "Experiência padronizada"],
   },
@@ -43,7 +43,7 @@
     id: "zoom-meet-webex",
     title: "Zoom Rooms, Google Meet e Cisco Webex",
     lead: "Salas flexíveis para empresas que recebem clientes, fornecedores e times em diferentes plataformas de reunião.",
-    equipment: "Hardwares para Zoom Rooms, Google Meet Hardware, Cisco Webex Room Kit, c?meras, microfones, displays e sistemas multiplataforma.",
+    equipment: "Hardwares para Zoom Rooms, Google Meet Hardware, Cisco Webex Room Kit, câmeras, microfones, displays e sistemas multiplataforma.",
     services: ["Implantação de Zoom Rooms", "Instalação de Google Meet Hardware", "Configuração de Cisco Webex Room Kit", "Integração entre plataformas", "Configuração de salas BYOD", "Parametrização de contas e dispositivos", "Testes de reunião"],
     benefits: ["Flexibilidade de plataforma", "Integração com calendários", "Salas para clientes externos", "Operação multiplataforma"],
   },
@@ -51,8 +51,8 @@
     id: "equipamentos-videoconferencia",
     title: "Equipamentos Lenovo, Logitech, Yealink, Poly e Jabra",
     lead: "Seleção, instalação e padronização de equipamentos profissionais de videoconferência para múltiplos ambientes.",
-    equipment: "Lenovo ThinkSmart, Logitech Rally, Logitech MeetUp, Yealink MVC, Yealink MeetingBoard, Poly Studio, Jabra PanaCast, c?meras PTZ, video bars, speakerphones e headsets.",
-    services: ["Fornecimento dos equipamentos", "Instalação dos dispositivos", "Configuração dos sistemas", "Integração com Teams, Zoom, Meet e Webex", "Ajuste de c?mera, microfone e áudio", "Padronização de salas", "Suporte técnico"],
+    equipment: "Lenovo ThinkSmart, Logitech Rally, Logitech MeetUp, Yealink MVC, Yealink MeetingBoard, Poly Studio, Jabra PanaCast, câmeras PTZ, video bars, speakerphones e headsets.",
+    services: ["Fornecimento dos equipamentos", "Instalação dos dispositivos", "Configuração dos sistemas", "Integração com Teams, Zoom, Meet e Webex", "Ajuste de câmera, microfone e áudio", "Padronização de salas", "Suporte técnico"],
     benefits: ["Equipamento adequado ao tamanho da sala", "Melhor áudio e vídeo", "Instalação limpa", "Operação intuitiva"],
   },
   {
@@ -107,8 +107,8 @@
     id: "infraestrutura-redes-cftv",
     title: "Infraestrutura, Redes Mesh e CFTV",
     lead: "Base técnica para ambientes conectados, seguros e preparados para alta demanda de rede, automação, AV e videoconferência.",
-    equipment: "Roteadores, access points, redes mesh, cabeamento estruturado, switches, c?meras IP, DVR, NVR, sensores e sistemas de monitoramento.",
-    services: ["Projeto de infraestrutura de rede", "Instalação de rede mesh", "Instalação de Wi-Fi corporativo", "Cabeamento estruturado", "Instalação de CFTV", "Configuração de c?meras IP", "Parametrização de NVR e DVR", "Integração com monitoramento remoto"],
+    equipment: "Roteadores, access points, redes mesh, cabeamento estruturado, switches, câmeras IP, DVR, NVR, sensores e sistemas de monitoramento.",
+    services: ["Projeto de infraestrutura de rede", "Instalação de rede mesh", "Instalação de Wi-Fi corporativo", "Cabeamento estruturado", "Instalação de CFTV", "Configuração de câmeras IP", "Parametrização de NVR e DVR", "Integração com monitoramento remoto"],
     benefits: ["Conectividade estável", "Eliminação de zonas de sombra", "Rede de alta demanda", "Monitoramento remoto"],
   },
 ];
@@ -117,7 +117,7 @@ const residentialMenu = [
   ["automacao-residencial", "Automação Residencial"],
   ["home-theater-audio", "Home Theater e Áudio Multiroom"],
   ["iluminacao-cortinas", "Iluminação, Cortinas e Cenas"],
-  ["seguranca-cftv", "Segurança, C?meras e CFTV"],
+  ["seguranca-cftv", "Segurança, Câmeras e CFTV"],
   ["redes-mesh-wifi", "Redes Mesh e Wi-Fi Residencial"],
   ["climatizacao-voz", "Climatização e Controle por Voz"],
 ];
