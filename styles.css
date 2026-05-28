@@ -2240,6 +2240,129 @@ body.lightbox-open {
   line-height: 1;
 }
 
+.site-footer {
+  position: relative;
+  z-index: 1;
+  padding: clamp(72px, 8vw, 118px) clamp(22px, 5vw, 78px) 34px;
+  color: #e7e9ed;
+  background:
+    linear-gradient(135deg, rgba(179, 15, 23, 0.24), transparent 34%),
+    linear-gradient(180deg, #17191d, #0f1013);
+}
+
+.footer-inner {
+  max-width: 1380px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(260px, 1.2fr) repeat(3, minmax(170px, 0.8fr));
+  gap: clamp(34px, 5vw, 82px);
+  align-items: start;
+}
+
+.footer-logo {
+  display: inline-flex;
+  width: min(220px, 58vw);
+  padding: 16px 0 24px;
+}
+
+.footer-logo img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.28));
+}
+
+.footer-brand-col p {
+  max-width: 360px;
+  margin: 0;
+  color: rgba(231, 233, 237, 0.7);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.footer-social {
+  display: flex;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.footer-social a {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.footer-col {
+  display: grid;
+  gap: 10px;
+}
+
+.footer-col strong {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.footer-col a {
+  color: rgba(231, 233, 237, 0.68);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.45;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.footer-col a:hover {
+  color: #fff;
+  transform: translateX(3px);
+}
+
+.footer-bottom {
+  max-width: 1380px;
+  margin: clamp(54px, 6vw, 86px) auto 0;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(231, 233, 237, 0.54);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1040px) {
+  .footer-inner {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .site-footer {
+    padding: 58px 20px 28px;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .footer-bottom {
+    display: grid;
+  }
+}
+
 @media (max-width: 1040px) {
   .brand-equipment-menu,
   .brand-tabs,
