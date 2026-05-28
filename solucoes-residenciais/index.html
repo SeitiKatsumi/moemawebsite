@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solução Residencial Moema</title>
+    <meta
+      name="description"
+      content="Landing page de solução residencial Moema com projeto, instalação, integração, treinamento e suporte."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="solution-page">
+    <header class="topbar" id="topo">
+      <a class="brand" href="../" aria-label="Moema">
+        <img src="../assets/logo-moema.webp" alt="Moema" />
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" aria-label="Menu principal">
+        <div class="nav-item has-submenu">
+          <a class="submenu-trigger" href="../#produtos" aria-expanded="false">Produtos e Serviços</a>
+          <div class="submenu" id="productsSubmenu" aria-label="Submenu Produtos e Serviços"></div>
+        </div>
+        <div class="nav-item has-submenu">
+          <a class="submenu-trigger" href="../solucoes-corporativas/" aria-expanded="false">Soluções Corporativas</a>
+          <div class="submenu" id="corporateSubmenu" aria-label="Submenu Soluções Corporativas"></div>
+        </div>
+        <div class="nav-item has-submenu">
+          <a class="submenu-trigger" href="./" aria-expanded="false">Soluções Residenciais</a>
+          <div class="submenu submenu-compact" id="residentialSubmenu" aria-label="Submenu Soluções Residenciais"></div>
+        </div>
+        <a href="../#projetos">Projetos Especiais</a>
+        <a href="../#diferenciais">Diferenciais</a>
+        <a href="../#sobre">Sobre a Moema</a>
+        <a href="../#conteudos">Conteúdos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="solution-hero landing-hero section-screen">
+        <div class="hero-bg" aria-hidden="true">
+          <span class="pulse pulse-one"></span>
+          <span class="grid-plane"></span>
+        </div>
+        <aside class="hero-panel hero-showcase landing-showcase" aria-label="Imagem principal da solução">
+          <img id="solutionHeroImage" class="hero-showcase-image" src="../assets/generated-environments/hppoly/ambiente-020-hppoly.png" alt="Ambiente residencial inteligente Moema" />
+          <div class="hero-showcase-label" id="solutionBannerTitle">Solução Residencial</div>
+        </aside>
+        <div class="solution-hero-copy">
+          <p class="eyebrow">Solução Residencial Moema</p>
+          <h1 id="solutionTitle">Solução Residencial</h1>
+          <p class="hero-copy" id="solutionLead"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contato">Solicitar projeto</a>
+            <a class="btn btn-secondary" href="#servicos">Ver implantação</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="solution-body section-pad" id="servicos">
+        <div class="solution-layout">
+          <article class="solution-panel">
+            <div class="section-kicker">Equipamentos e soluções</div>
+            <h2>O que entra no projeto</h2>
+            <p id="solutionEquipment"></p>
+          </article>
+          <article class="solution-panel">
+            <div class="section-kicker">Serviços Moema</div>
+            <h2>Como a Moema implanta</h2>
+            <ul class="feature-list" id="solutionServices"></ul>
+          </article>
+          <article class="solution-panel">
+            <div class="section-kicker">Diferenciais</div>
+            <h2>Resultado na rotina</h2>
+            <ul class="feature-list" id="solutionBenefits"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="solution-cases section-pad">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Ambientes e clientes</div>
+            <h2>Espaços prontos para imagens reais</h2>
+          </div>
+          <p>
+            A página já reserva áreas para fotos dos ambientes, detalhes de acabamento, cenas automatizadas,
+            antes e depois e depoimentos dos moradores.
+          </p>
+        </div>
+        <div class="case-strip" id="solutionCases">
+          <article><span>Ambiente integrado</span></article>
+          <article><span>Detalhe de acabamento</span></article>
+          <article><span>Cena automatizada</span></article>
+          <article><span>Depoimento</span></article>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contato">
+        <div class="contact-card">
+          <div>
+            <div class="section-kicker">Próximo passo</div>
+            <h2>Vamos desenhar sua casa inteligente</h2>
+            <p>
+              A Moema avalia rotina, conforto, segurança, infraestrutura, estética e integrações para entregar
+              a tecnologia funcionando de forma simples no dia a dia.
+            </p>
+          </div>
+          <form class="lead-form">
+            <label>
+              Nome
+              <input type="text" name="nome" placeholder="Seu nome" />
+            </label>
+            <label>
+              Ambiente
+              <input type="text" name="ambiente" placeholder="Casa, apartamento, área gourmet, home theater" />
+            </label>
+            <label>
+              Solução
+              <input type="text" name="solucao" id="solutionInput" readonly />
+            </label>
+            <label>
+              Mensagem
+              <textarea name="mensagem" rows="4" placeholder="Descreva o ambiente ou objetivo do projeto"></textarea>
+            </label>
+            <button class="btn btn-primary" type="button">Solicitar projeto</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="../residential-landing.js"></script>
+    <script src="../hero-physics.js"></script>
+  </body>
+</html>

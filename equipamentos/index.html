@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipamentos de Videoconferência | Moema</title>
+    <meta
+      name="description"
+      content="Catálogo visual Moema com equipamentos HP Poly, Yealink, Logitech e Jabra para videoconferência corporativa."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="solution-page equipment-page">
+    <header class="topbar" id="topo">
+      <a class="brand" href="../" aria-label="Moema">
+        <img src="../assets/logo-moema.webp" alt="Moema" />
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" aria-label="Menu principal">
+        <div class="nav-item has-submenu">
+          <a class="submenu-trigger" href="../#produtos" aria-expanded="false">Produtos e Serviços</a>
+          <div class="submenu submenu-compact">
+            <a href="../solucoes-corporativas/?solucao=videoconferencia-hibrida">Videoconferência Híbrida</a>
+            <a href="../solucoes-corporativas/?solucao=microsoft-teams-rooms">Microsoft Teams Rooms</a>
+            <a href="../solucoes-corporativas/?solucao=zoom-meet-webex">Zoom, Meet e Webex</a>
+            <a href="../solucoes-corporativas/?solucao=equipamentos-videoconferencia">Equipamentos de Videoconferência</a>
+          </div>
+        </div>
+        <a href="../solucoes-corporativas/">Soluções Corporativas</a>
+        <a href="../solucoes-residenciais/">Soluções Residenciais</a>
+        <a href="../#projetos">Projetos Especiais</a>
+        <a href="../#diferenciais">Diferenciais</a>
+        <a href="../#sobre">Sobre a Moema</a>
+        <a href="../#conteudos">Conteúdos</a>
+        <a href="../#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="equipment-hero section-screen">
+        <div class="equipment-hero-media">
+          <img id="equipmentHeroImage" src="../assets/generated-environments/hppoly/ambiente-001-hppoly.png" alt="Ambiente de videoconferência Moema" />
+        </div>
+        <div class="equipment-hero-copy">
+          <div class="section-kicker">Equipamentos de videoconferência</div>
+          <h1 id="brandTitle">Catálogo por marca</h1>
+          <p id="brandIntro" class="hero-copy">
+            Consulte fotos dos equipamentos, descrições rápidas e linhas indicadas para salas híbridas.
+          </p>
+        </div>
+      </section>
+
+      <section class="brand-tabs-section section-pad">
+        <div class="brand-tabs" id="brandTabs"></div>
+      </section>
+
+      <section class="equipment-catalog section-pad">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker" id="brandKicker">Catálogo visual</div>
+            <h2 id="catalogTitle">Equipamentos disponíveis</h2>
+          </div>
+          <p>
+            As imagens apoiam a seleção visual de câmeras, barras, controladores, microfones e kits para cada perfil de sala.
+          </p>
+        </div>
+        <div class="equipment-grid" id="equipmentGrid"></div>
+      </section>
+    </main>
+
+    <script src="../equipment-data.js"></script>
+    <script src="../equipment-page.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+.git
+*.log
+*-check.png
+wp-backups
+tools
+node_modules

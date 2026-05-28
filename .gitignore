@@ -1,0 +1,7 @@
+*.log
+*-check.png
+node_modules/
+wp-backups/
+tools/
+portal-server.js
+run-portal.cmd
